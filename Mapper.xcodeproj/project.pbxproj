@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1081AAD925DE5C07006740EE /* MapperObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1081AAD825DE5C07006740EE /* MapperObject.swift */; };
 		1097758725DE59CF00A3BCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097758625DE59CF00A3BCA3 /* AppDelegate.swift */; };
 		1097758925DE59CF00A3BCA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097758825DE59CF00A3BCA3 /* SceneDelegate.swift */; };
 		1097758B25DE59CF00A3BCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097758A25DE59CF00A3BCA3 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1081AAD825DE5C07006740EE /* MapperObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperObject.swift; sourceTree = "<group>"; };
 		1097758325DE59CF00A3BCA3 /* Mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1097758625DE59CF00A3BCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1097758825DE59CF00A3BCA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1081AADA25DE5C1E006740EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1097758A25DE59CF00A3BCA3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1081AADB25DE5C2B006740EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1081AAD825DE5C07006740EE /* MapperObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1081AADC25DE5C39006740EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1097758C25DE59CF00A3BCA3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1097757A25DE59CF00A3BCA3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +127,11 @@
 		1097758525DE59CF00A3BCA3 /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
+				1081AADC25DE5C39006740EE /* View */,
+				1081AADB25DE5C2B006740EE /* Model */,
 				1097758625DE59CF00A3BCA3 /* AppDelegate.swift */,
 				1097758825DE59CF00A3BCA3 /* SceneDelegate.swift */,
-				1097758A25DE59CF00A3BCA3 /* ViewController.swift */,
-				1097758C25DE59CF00A3BCA3 /* Main.storyboard */,
+				1081AADA25DE5C1E006740EE /* Controller */,
 				1097759225DE59D200A3BCA3 /* Assets.xcassets */,
 				1097759425DE59D200A3BCA3 /* LaunchScreen.storyboard */,
 				1097759725DE59D200A3BCA3 /* Info.plist */,
@@ -263,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1097759125DE59CF00A3BCA3 /* Mapper.xcdatamodeld in Sources */,
+				1081AAD925DE5C07006740EE /* MapperObject.swift in Sources */,
 				1097758B25DE59CF00A3BCA3 /* ViewController.swift in Sources */,
 				1097758725DE59CF00A3BCA3 /* AppDelegate.swift in Sources */,
 				1097758925DE59CF00A3BCA3 /* SceneDelegate.swift in Sources */,
